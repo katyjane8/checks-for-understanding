@@ -1,10 +1,12 @@
 ## Week Two - Module 2 Recap
 
-Fork this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON - YOU are a web developer!!!). 
+Fork this repository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON - YOU are a web developer!!!).
 
 Note: When you're done, submit a PR.
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
+ActiveRecord is an MVC model that stores information in a table to allow you to access it, manipulate it, and render it to an HTML page.
+
 2. Assume you have the following model:
 
 ```ruby
@@ -13,8 +15,13 @@ end
 ```
 
 What are some methods you can call on `Team`? If these methods aren't defined in the class, how do you have access to them?
+I think the shovel is a typo - should be just one < ?
+Anyways, you can call on any methods that are available to ActiveRecord such as .create, .group and .order since Team inherits from ActiveRecord.
+
 
 3. Assume that in your database, a team has the following attributes: "id", "name", owner_id". How would you find the name of a team with an id of 4? Assuming your class only included the code from question 2, how could you find the owner of the same team?
+
+
 
 4. Assume that you added a line to your `Team` class as follows:
 
