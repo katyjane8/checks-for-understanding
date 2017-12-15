@@ -31,7 +31,21 @@ horse_path(@horse) <-- is the route helper. Helps you understand where exactly y
 
 
 8. What are strong params and why are the necessary?
+Strong params are defined in a private method with the params, a requirement of the object in a symbol and the permitted data to be passed in.
+
 9. What role does `form_for` play in helping us create our forms?
+form_for creates a list of tags that create a form for us in Rails, so that we don't have to create a form in HTML.
+
 10. How does `form_for` know where to submit the user's input?
+The submit function directs the user with a POST verb, thus triggering the create method on that controller.
+
 11. Create a form using a `form_for` helper to create a new `Horse`.
+`<%= form_for @horse do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.submit %>
+<% end %>`
+
+
 12. Why do we want to validate our models?
+We need to know what data we have access to when we start to create relationships.
