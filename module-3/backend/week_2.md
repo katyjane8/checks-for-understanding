@@ -88,6 +88,7 @@ Rate yourself on the following scale.
 Andrew J - 3
 Cam - 2.5
 Anna - 2.5
+Katy - 3
 ^^ Please let an instructor know where you'd like support to catch you up.
 * More help understanding the 4 pillars conceptually / connections to where we are using these
 * Front End development
